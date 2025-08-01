@@ -149,7 +149,7 @@ export default function Home() {
                   <Zap className="w-6 h-6 text-white" />
                 </div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2 font-title">Cultural Preservation</h4>
-                <p className="text-gray-600 text-sm font-subtext">Celebrating and promoting Ethiopia's cultural identity through traditional designs with modern styles.</p>
+                <p className="text-gray-600 text-sm font-subtext">Celebrating and promoting Ethiopia&apos;s cultural identity through traditional designs with modern styles.</p>
               </div>
               
               <div className="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
@@ -505,7 +505,7 @@ export default function Home() {
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6 font-subtext">
                   The Gurage cultural garment embodies the entrepreneurial spirit and rich traditions of the Gurage people. 
-                  Characterized by its bold patterns and vibrant colors, this traditional dress represents the community's 
+                  Characterized by its bold patterns and vibrant colors, this traditional dress represents the community&apos;s 
                   strong cultural identity and artistic heritage. The intricate details and quality craftsmanship make 
                   each piece a celebration of Gurage culture.
                 </p>
