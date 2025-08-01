@@ -23,6 +23,9 @@ export default function Home() {
                    alt="Manufacturing Excellence"
                    width={600}
                    height={500}
+                   priority
+                   placeholder="blur"
+                   blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                    className="relative z-10 w-full h-auto transform transition-all duration-1000 ease-out"
                  />
                  <div className="absolute bottom-0 left-0 right-0 h-[60%] bg-gradient-to-br from-[#107239] to-[#0d5f2f] rounded-3xl shadow-2xl -z-0 transform transition-all duration-1000 ease-out delay-300"></div>
@@ -105,6 +108,9 @@ export default function Home() {
                 src="/Manuf..png"
                 alt="Manufacturing Process"
                 fill
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent">
@@ -251,6 +257,10 @@ export default function Home() {
                   src="/Cloth sample 1.png"
                   alt="Cloth Sample 1"
                   fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -269,6 +279,10 @@ export default function Home() {
                   src="/Cloth sample 3.png"
                   alt="Cloth Sample 3"
                   fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -287,6 +301,10 @@ export default function Home() {
                   src="/Cloth design 2.png"
                   alt="Cloth Design 2"
                   fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -305,6 +323,10 @@ export default function Home() {
                   src="/Cloths 2.png"
                   alt="Cloths Collection"
                   fill
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -323,6 +345,10 @@ export default function Home() {
                   src="/Cloths 2K.png"
                   alt="Premium Cloths"
                   fill
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -341,6 +367,10 @@ export default function Home() {
                   src="/Clot  hs 2.png"
                   alt="Clothing Collection"
                   fill
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -355,8 +385,195 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Team Section */}
+      {/* Cultural Heritage Collection */}
       <section className="py-20 bg-gray-50 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-title">
+              Cultural <span className="text-[#107239]">Heritage Collection</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto font-subtext">
+              Discover our authentic Ethiopian cultural garments representing the rich traditions of different regions.
+            </p>
+          </div>
+          
+          <div className="space-y-16">
+            {/* Sidama Cultural Dress */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="relative">
+                <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-xl">
+                  <Image
+                    src="/sidama1.png"
+                    alt="Sidama Traditional Dress"
+                    fill
+                    loading="lazy"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6 font-title">
+                  Sidama Traditional Dress
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6 font-subtext">
+                  The Sidama traditional dress represents the rich cultural heritage of the Sidama people in southern Ethiopia. 
+                  This elegant garment features intricate handwoven patterns and vibrant colors that tell stories of ancient traditions. 
+                  Made from locally sourced cotton and adorned with traditional embroidery, each piece is a masterpiece of cultural artistry.
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Handwoven traditional patterns</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Premium locally sourced cotton</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Authentic cultural embroidery</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Hadiya Cultural Dress */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="lg:order-2">
+                <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-xl">
+                  <Image
+                    src="/Hadiya.png"
+                    alt="Hadiya Traditional Dress"
+                    fill
+                    loading="lazy"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+              <div className="lg:order-1">
+                <h3 className="text-3xl font-bold text-gray-900 mb-6 font-title">
+                  Hadiya Traditional Attire
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6 font-subtext">
+                  The Hadiya traditional attire showcases the sophisticated textile traditions of the Hadiya zone. 
+                  Known for its distinctive geometric patterns and earth-tone color palette, this garment reflects the 
+                  agricultural heritage and artistic excellence of the Hadiya people. Each piece is carefully crafted 
+                  using time-honored techniques passed down through generations.
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Distinctive geometric patterns</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Earth-tone color palette</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Traditional weaving techniques</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Gurage Cultural Dress */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="relative">
+                <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-xl">
+                  <Image
+                    src="/Gurage.png"
+                    alt="Gurage Traditional Dress"
+                    fill
+                    loading="lazy"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6 font-title">
+                  Gurage Cultural Garment
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6 font-subtext">
+                  The Gurage cultural garment embodies the entrepreneurial spirit and rich traditions of the Gurage people. 
+                  Characterized by its bold patterns and vibrant colors, this traditional dress represents the community's 
+                  strong cultural identity and artistic heritage. The intricate details and quality craftsmanship make 
+                  each piece a celebration of Gurage culture.
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Bold traditional patterns</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Vibrant cultural colors</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Premium quality craftsmanship</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Gamo Cultural Dress */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="lg:order-2">
+                <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-xl">
+                  <Image
+                    src="/Gamo.png"
+                    alt="Gamo Traditional Dress"
+                    fill
+                    loading="lazy"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+              <div className="lg:order-1">
+                <h3 className="text-3xl font-bold text-gray-900 mb-6 font-title">
+                  Gamo Traditional Ensemble
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6 font-subtext">
+                  The Gamo traditional ensemble represents the highland culture and pastoral traditions of the Gamo people. 
+                  This sophisticated garment features elegant draping and subtle color combinations that reflect the 
+                  natural beauty of the Gamo highlands. The careful attention to detail and traditional construction 
+                  methods ensure authenticity and cultural significance.
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Elegant traditional draping</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Highland-inspired colors</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-[#107239] rounded-full mr-3"></span>
+                    <span className="text-gray-600 font-subtext">Authentic construction methods</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Team Section */}
+      <section className="py-20 bg-white relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4 font-title">
@@ -376,6 +593,10 @@ export default function Home() {
                   alt="Founder & CEO"
                   width={192}
                   height={192}
+                  loading="lazy"
+                  sizes="192px"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="w-full h-full object-cover object-center rounded-full border-4 border-[#107239]"
                 />
               </div>
@@ -391,6 +612,10 @@ export default function Home() {
                   alt="Co-Founder"
                   width={192}
                   height={192}
+                  loading="lazy"
+                  sizes="192px"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="w-full h-full object-cover object-center rounded-full border-4 border-[#107239]"
                 />
               </div>
@@ -406,6 +631,10 @@ export default function Home() {
                   alt="Operational Manager"
                   width={192}
                   height={192}
+                  loading="lazy"
+                  sizes="192px"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="w-full h-full object-cover rounded-full border-4 border-[#107239]"
                 />
               </div>
@@ -437,6 +666,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2 font-title">Phone</h3>
+                    <p className="text-gray-600 font-subtext">0462207432</p>
                     <p className="text-gray-600 font-subtext">+251 916828905</p>
                     <p className="text-gray-600 font-subtext">+251 916822985</p>
                   </div>
@@ -513,10 +743,13 @@ export default function Home() {
             <div>
               <div className="flex items-center mb-4">
                 <Image
-                  src="/logo.png"
+                  src="/kkjj.png"
                   alt="Abeba Knit Logo"
                   width={32}
                   height={32}
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   className="mr-3"
                 />
                 <span className="text-xl font-bold font-title">Abeba Knit</span>

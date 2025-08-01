@@ -4,6 +4,7 @@ import * as React from "react"
 import { useState } from "react"
 import { motion, AnimatePresence } from "motion/react"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 const Navbar1 = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -21,9 +22,12 @@ const Navbar1 = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
           >
-            <img
-              src="/logo.png"
+            <Image
+              src="/kkjj.png"
               alt="Abeba Knit Logo"
+              width={32}
+              height={32}
+              priority
               className="w-8 h-8 mr-2"
             />
             <span className="text-lg font-bold text-[#107239] font-title">Abeba Knit</span>
